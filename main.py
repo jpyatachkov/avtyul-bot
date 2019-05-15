@@ -46,5 +46,9 @@ def handle_avtyul_action(inline_query: InlineQuery):
         print(e)
 
 
-if __name__ == '__main__':
+def main():
     bot.polling()
+
+
+if __name__ == '__main__':
+    main()
